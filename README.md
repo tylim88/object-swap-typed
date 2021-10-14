@@ -18,7 +18,7 @@ npm i object-swap-typed
 
 ## Usage
 
-🎵 Get Pairs Object
+🎵 Usage
 
 ```ts
 import { objSwap } from 'object-swap-typed'

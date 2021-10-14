@@ -1,6 +1,6 @@
 {
 	"name": "object-swap-typed",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Swap object key and value with correct return typing",
 	"main": "dist/index.js",
 	"types": "types/index.d.ts",
