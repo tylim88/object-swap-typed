@@ -30,4 +30,4 @@ console.log(swapped) // {'1': 'a','2': 'b','3': 'c'}
 type swapped = typeof swapped // {'1': 'a','2': 'b','3': 'c'}
 ```
 
-Important, you must use const assertion as shown in above example!
+Important, you must use `const assertion` as shown in above example!
