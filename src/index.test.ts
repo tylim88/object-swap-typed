@@ -13,6 +13,6 @@ describe('objSwap', () => {
 	})
 })
 
-expectType<{ '1': 'a'; '2': 'b'; '3': 'c1' }>(
+expectType<{ '1': 'a'; '2': 'b'; '3': 'c' }>(
 	objSwap({ a: '1' as const, b: '2' as const, c: '3' as const })
 )
