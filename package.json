@@ -1,18 +1,16 @@
 {
 	"name": "object-swap-typed",
-	"version": "1.0.6",
+	"version": "1.1.0",
 	"description": "Swap object key and value and return accurate type",
 	"main": "dist/index.js",
-	"types": "types/index.d.ts",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"reinstall": "rm -rf node_modules/ && rm -rf package-lock.json && npm i",
-		"tsc": "tsc -p tsconfig.json && npm run dummy",
 		"lint": "eslint --ext .ts",
 		"lint-fix": "npm run lint --fix",
 		"build": "rm -rf dist && rm -rf types && babel src --out-dir dist --extensions \".ts\" && tsc -p tsconfig.json",
 		"test": "jest",
-		"pub": "npm run build && npm publish",
-		"dummy": ""
+		"pub": "npm run build && npm publish"
 	},
 	"repository": {
 		"type": "git",
