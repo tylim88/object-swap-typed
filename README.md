@@ -31,3 +31,5 @@ type swapped = typeof swapped // {'1': 'a','2': 'b','3': 'c'}
 ```
 
 Important, you must use `const assertion` as shown in above example!
+
+return new object, does not modify original object
