@@ -1,6 +1,6 @@
-# object-swap-typed
+# swob
 
-[![npm](https://img.shields.io/npm/v/object-swap-typed)](https://www.npmjs.com/package/object-swap-typed) [![GitHub](https://img.shields.io/github/license/tylim88/object-swap-typed)](https://github.com/tylim88/object-swap-typed/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/tylim88/object-swap-typed/pulls) [![tylim88](https://circleci.com/gh/tylim88/object-swap-typed.svg?style=shield)](<[LINK](https://github.com/tylim88/object-swap-typed#object-swap-typed)>)
+[![npm](https://img.shields.io/npm/v/swob)](https://www.npmjs.com/package/swob) [![GitHub](https://img.shields.io/github/license/tylim88/swob)](https://github.com/tylim88/swob/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/tylim88/swob/pulls) [![tylim88](https://circleci.com/gh/tylim88/swob.svg?style=shield)](<[LINK](https://github.com/tylim88/swob#swob)>)
 
 🐤 swap object key and value and return accurate type.
 
@@ -13,7 +13,7 @@
 ## Installation
 
 ```bash
-npm i object-swap-typed
+npm i swob
 ```
 
 ## Usage
@@ -21,9 +21,9 @@ npm i object-swap-typed
 🎵 Usage
 
 ```ts
-import { objSwap } from 'object-swap-typed'
+import swob from 'swob'
 
-const swapped = objSwap({ a: '1' as const, b: '2' as const, c: '3' as const })
+const swapped = swob({ a: '1' as const, b: '2' as const, c: '3' as const })
 
 console.log(swapped) // {'1': 'a','2': 'b','3': 'c'}
 
