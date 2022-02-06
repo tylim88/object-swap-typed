@@ -10,7 +10,7 @@
 		"lint-fix": "npm run lint --fix",
 		"build": "rm -rf dist && rm -rf types && babel src --out-dir dist --extensions \".ts\" && tsc -p tsconfig.json",
 		"test": "jest",
-		"pub": "npm run build && npm publish"
+		"pub": "npm test && npm run build && npm publish"
 	},
 	"repository": {
 		"type": "git",
