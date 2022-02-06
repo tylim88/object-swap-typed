@@ -1,6 +1,6 @@
 # swob
 
-[![npm](https://img.shields.io/npm/v/swob)](https://www.npmjs.com/package/swob) [![GitHub](https://img.shields.io/github/license/tylim88/swob)](https://github.com/tylim88/swob/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/tylim88/swob/pulls) [![tylim88](https://circleci.com/gh/tylim88/swob.svg?style=shield)](<[LINK](https://github.com/tylim88/swob#swob)>)
+[![npm](https://img.shields.io/npm/v/swob)](https://www.npmjs.com/package/swob) [![GitHub](https://img.shields.io/github/license/tylim88/swob)](https://github.com/tylim88/swob/blob/main/LICENSE) [![tylim88](https://circleci.com/gh/tylim88/swob.svg?style=shield)](<[LINK](https://github.com/tylim88/swob#swob)>)
 
 🐤 swap object key and value and return accurate type.
 
